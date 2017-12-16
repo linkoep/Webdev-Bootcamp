@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Forms Part 2</title>
+  </head>
+  <body>
+    <h1>More forms</h1>
+    <form action="" method="">
+      <label for="1">Choice 1</label>
+      <input id="1" name="Radio" value="1" type="radio"> <!-- Radio Buttons allow one choice per name at a time -->
+      <label for="2">Choice 2</label>
+      <input id="2" name="Radio" value="2" type="radio"> <!-- Note the name and value in the get request -->
+
+      <input type="checkbox"> <!-- Checkboxes allow no or multiple selections -->
+      <input type="checkbox">
+
+      <select id="" name="Selector">
+	<option value="1">Selection 1</option>
+	<option value="2">Selection 2</option>
+	<option value="3">Selection 3</option>
+      </select>
+
+      <textarea id="" name="TextArea" cols="30" rows="10"></textarea>
+
+      <button>Submit</button> <!-- A button as the last form element works to submit the http request -->
+    </form>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <!-- action: where the form sends data, method: what type of http request -->
+    <!-- Note that one should never actually send passwords via get request -->
+    <!-- Note the two different label syntaxes. Both are valid -->
+    <!-- SOme form validations can be done in html -->
+    <form action="" method="GET">
+      <label for="email">
+	Email:
+	<input id="email" type="email" placeholder="example@example.com" required>
+      </label>
+
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="password" required>
+
+      <input type="submit">
+    </form>
+    <p>Forms are block-level elements, individual inputs are not</p>
+  </body>
+</html>
