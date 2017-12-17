@@ -1,0 +1,18 @@
+body {
+  /*background: url(http://www.mulierchile.com/wood-grain-wallpapers/wood-grain-wallpapers-018.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
+  background: pink;
+}
+h1 {
+  border: 3px solid blue;
+  /*Equivakebt to
+  border-color: blue;
+  border-width: 3px;
+  border-style: solid;
+  */
+}
+h4 {
+  background: rgb(255,110,50);
+}

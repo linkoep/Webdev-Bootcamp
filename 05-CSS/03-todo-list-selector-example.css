@@ -1,0 +1,45 @@
+/* Element selectors select tag types */
+li {
+  border: 2px solid #00c2ff;
+}
+
+/* ID selectors select elements with given IDs */
+/* IDs should be unique */
+
+#special {
+  background-color: yellow;
+}
+
+/* Class selectors select elements with given class */
+/* Multiple elements can share a class */
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* The star selector selects everything on the page */
+
+* {
+  border: 1px solid lightgrey;
+}
+
+/* The descendent selector selects only descendants */
+
+ul li {
+  background-color: pink;
+}
+
+/* The adjacent selector selects sibling elements */
+ul + label {
+  background-color: lightblue;
+}
+
+/* The attribute selector selects based off of a certain attribute */
+input[checked] {
+  margin: 5px;
+}
+
+/* The nth of type selector selects every nth of an element in a given group */
+li:nth-of-type(odd) {
+  border-style:dashed;
+}

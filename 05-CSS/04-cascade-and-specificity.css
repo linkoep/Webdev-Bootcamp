@@ -1,0 +1,15 @@
+body {
+  color:red;
+}
+
+/* This more specific selector overrides the general one no matter what */
+ul {
+  color:blue;
+}
+
+/* This further down slector of the same element overrides those above it */
+ul {
+  color:pink;
+}
+
+/* Classes are more specific than tags, IDs are more specific than classes */
