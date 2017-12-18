@@ -1,0 +1,47 @@
+/*Font family picks the font */
+/* We can include our own custom fonts */
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+
+/*Font size sets the size using pixels or em */
+/* 1em is the font size of the parent element */
+h1 {
+  font-size: 48;
+}
+p {
+  font-size: 16px; 
+}
+span {
+  font-size: 1.5em;
+}
+
+/* Common usage of em is to set a body font size and refer to all else in em */
+
+/* Font weight is how bold/lightweight the text is */
+p {
+  font-weight: normal;
+}
+span {
+  font-weight: bold;
+}
+
+/* Line height controls line spacing */
+p {
+  line-height: 1.15;
+}
+
+/* Text-align controls left/right/center */
+h1 {
+  text-align: center;
+}
+
+/*Text decoration adds underline, strikethrough, etc. */
+span {
+  text-decoration: underline;
+}
