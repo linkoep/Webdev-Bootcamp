@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Grid System</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css">
+.show-box {
+  background: pink;
+  border: 1px solid purple;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Bootstrap's grid system allows us to divide our page into pieces
+      and say how much space we want each piece to take up -->
+
+      <div class="container">
+	<div class="row">
+	  <div class="col-lg-2 show-box">2 Columns</div>
+	  <div class="col-lg-8 show-box">8 Columns</div>
+	  <div class="col-lg-2 show-box">2 Columns</div>
+	</div>
+	<div class="row">
+	  <div class="col-lg-4 show-box">4 Columns</div>
+	  <div class="col-lg-4 show-box">4 Columns</div>
+	  <div class="col-lg-4 show-box">4 Columns</div>
+	</div>
+      </div>
+      <br>
+
+
+      <!-- There are four different sizes of columns -->
+      <div class="container">
+	<div class="row">
+	  <div class="col-md-3 col-sm-6 col-xs-12 show-box">Tour Date</div>
+	  <div class="col-md-3 col-sm-6 col-xs-12 show-box">Tour Date</div>
+	  <div class="col-md-3 col-sm-6 col-xs-12 show-box">Tour Date</div>
+	  <div class="col-md-3 col-sm-6 show-box">Tour Date</div>
+	</div>
+      </div>
+
+      <!-- We can nest grids inside each other -->
+      <br>
+      <div class="container">
+	<div class="row">
+	  <div class="col-md-3 col-sm-6 show-box">
+	    <div class="row">
+	      <div class="col-lg-6 show-box">First half</div>
+	      <div class="col-lg-6 show-box">Second Half</div>
+	    </div>
+	  </div>
+	  <div class="col-md-3 col-sm-6 show-box">Not nested</div>
+	  <div class="col-md-3 col-sm-6 show-box">Not nested</div>
+	  <div class="col-md-3 col-sm-6 show-box"><div class="row">
+	      <div class="col-lg-2 show-box">This</div>
+	      <div class="col-lg-2 show-box">Part</div>
+	      <div class="col-lg-2 show-box">Is</div>
+	      <div class="col-lg-2 show-box">Divided</div>
+	      <div class="col-lg-2 show-box">Into</div>
+	      <div class="col-lg-2 show-box">Six</div>
+	    </div> </div>
+	</div>
+      </div>
+
+  </body>
+</html>

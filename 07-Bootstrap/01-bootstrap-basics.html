@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Basics</title>
+    <!-- Including a hosted version of bootstrap. We could also download a version onto our machine -->
+    <!-- Note that for our purposes of the course we use the older v3.3.7 -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- We can also override bootstrap styles -->
+    <style type="text/css">
+.btn-primary {
+  background-color: teal;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Bootstrap Basics</h1>
+
+    <p>We can configure button sizes, colors, statuses, etc.</p>
+    <button class="btn btn-success btn-xs">A bootstrap button</button>
+    <a href="http://getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+    <button class="btn btn-danger btn-xs active">Active Button</button>
+    <button class="btn btn-primary btn-xs" disabled="disabled">Disabled Button</button>
+
+    <p>We can also use bootstrap for forms. This is an exmaple from the bootstrap docs.</p>
+    <form>
+      <div class="form-group">
+	<label for="exampleInputEmail1">Email address</label>
+	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+	<label for="exampleInputPassword1">Password</label>
+	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+	<label for="exampleInputFile">File input</label>
+	<input type="file" id="exampleInputFile">
+	<p class="help-block">Example block-level help text here.</p>
+      </div>
+      <div class="checkbox">
+	<label>
+	  <input type="checkbox"> Check me out
+	</label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <p>An inline form is another type of form (Code also from bootstrap).</p>
+    <form class="form-inline">
+      <div class="form-group">
+	<label for="exampleInputEmail1">Email address</label>
+	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+	<label for="exampleInputPassword1">Password</label>
+	<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+	<label for="exampleInputFile">File input</label>
+	<input type="file" id="exampleInputFile">
+	<p class="help-block">Example block-level help text here.</p>
+      </div>
+      <div class="checkbox">
+	<label>
+	  <input type="checkbox"> Check me out
+	</label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <p>Jumbotrons are a bootstrap element we can use to draw attention to text. Containers can be used for layout</p>
+    <div class="container">
+      <div class="jumbotron">
+	<h1>This is a jumbotron </h1>
+	<p>Text here</p>
+	<button class="btn btn-success">And another button</button>
+      </div>
+    </div>
+
+  </body>
+</html>
