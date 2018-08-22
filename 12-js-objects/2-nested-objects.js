@@ -12,3 +12,7 @@ var posts = [
     comments: ["Comment 2.1", "Comment 2.2"]
   }
 ]
+
+//Accessing
+console.log(posts[0].title); //Post 1
+console.log(posts[1].comments[1]); //"Comment 2.2
